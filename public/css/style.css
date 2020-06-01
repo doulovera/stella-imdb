@@ -1,0 +1,44 @@
+
+.navbar-brand::before {
+    content: ">";
+}
+
+.has_error {
+    text-align: center;
+}
+
+header {
+    margin: 5%;
+}
+
+header .movieName {
+    width: 50%;
+}
+
+.info {
+    margin: 10%;
+    display: flex;
+}
+
+h3 {
+    flex: 30%
+}
+
+.texto {
+    flex: 70%;
+    margin: 5%;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    color: #fff;
+    width: 100%;
+    padding: 30px;
+}
+
+footer p {
+    margin: 0;
+}
