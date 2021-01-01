@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 const imdb = require('imdb-api')
 const app = express();
-const apikey = '59f8fab9';
+const apikey = process.env.IMDB_KEY;
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }))
